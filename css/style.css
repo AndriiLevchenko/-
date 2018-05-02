@@ -15,14 +15,17 @@ header{
 margin-bottom: 4px;	
 }
 #header{
-    /*height: 212px;*/
     margin-bottom: 10px;
-	background-image: url('images/fujiyama.jpg');
+	background-image: url('../Images/fujiyama.jpg');
 	background-size: cover;  
 	background-repeat: repeat-x;
 	background-color: #25B33f;
 	padding: 4px;
 	clear: both;
+}
+
+p{
+	margin: 0px;
 }
 	
 header a { /*äëÿ âñåõ ññûëîê õåäåðà*/
@@ -73,6 +76,9 @@ solid;
 
 #main p{
 	text-indent: 55px;
+}
+.margin10{
+	margin-right: 28px;
 }
 	
 footer{
