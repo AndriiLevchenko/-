@@ -1,14 +1,25 @@
-<!DOCTYPE html>     <!--commentary  это документ типа html-->
-<html>   <!-- открывает документ html-->
-<head>  <!-- технические характеристики (метаданные) -->
-<meta charset="utf-8">  <!--  сказали браузеру что докум написан в кодировке utf-8 (ее устанавливали при настройке)  -->
+<!DOCTYPE html>    
+<html>   
+<head>  
+<meta charset="utf-8">  
 <title>Хакама купить</title>
-<meta name="description" content="Здесь вы можете приобрести хакама (hakama) под заказ с доставкой">  <!-- для поисковой системы -->
+<meta name="description" content="Здесь вы можете приобрести хакама (hakama) под заказ с доставкой">  
 <meta name="keywords" content="хакама купить hakama buy">
+<meta name="robots" content="index, follow"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<meta name="author" content="Andrii"> 
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
 <link rel="stylesheet" href="css/bootstrapminx.css">
 <link rel="stylesheet" href="css/style.css">
 
+<script type="text/javascript">
+	    function funotkr(){
+		nw=open('oknootzyvy.html', 'otzyvy', 'width=940,height=1100,location=no,_blank');
+		}
+</script>
 </head>
+
 <body>
 <header>
 	<div id="header"> 
@@ -21,25 +32,31 @@
 	    <p><b>  e-mail: <a href="mailto:info@hakama.com.ua">info@hakama.com.ua</a>   </b></p>
 		<p><i>	www.hakama.com.ua   </i></p>
 
-		<div class="container">
-			<ul class="nav nav-tabs">
-				<li>  <a href="#hakamaeng" role="tab" data-toggle="tab"> hakama    </a></li>
-				<li>  <a href="#rozmiryeng" role="tab" data-toggle="tab"> sizes   </a></li>
-				<li>  <a href="#materialyeng" role="tab" data-toggle="tab"> materials</a></li>
-				<li class="active">  <a href="#indexeng" role="tab" data-toggle="tab"> order  </a></li>
-						
-				<li><button title="Українська" onclick= "location.href='indexukr.html'"> Укр </button></li>
-				<li><button title="Русский"    onclick= "location.href='index.html'">   Рус  </button></li>
-				<li> <button title="English"  onclick= "location.href='indexeng.html'">  Eng  </button></li>
-				<li><button title="Português" onclick= "location.href='indexpt.html'">   Pt  </button></li>	
+		<div class="container-fluid">
+		
+		<div id="movy">	
+			<ul class="list-inline">
+				<li><a href="indexukr.html" class="btn" title="Українська" >Укр</a></li>
+				<li><a href="index.html"    class="btn" title="Русский"    >Рус</a></li>
+				<li><a href="indexeng.html" class="btn" title="English"    >Eng</a></li>
+				<li><a href="indexpt.html"  class="btn" title="Português"  >P t </a></li>	
+		    </ul> 
+		</div>
+		<div id="taby">
+			<ul class="nav nav-tabs" >
+				<li>  <a href="#hakama" role="tab" data-toggle="tab"> hakama    </a></li>
+				<li>  <a href="#rozmiry" role="tab" data-toggle="tab"> sizes   </a></li>
+				<li>  <a href="#materialy" role="tab" data-toggle="tab"> materials </a></li>
+				<li class="active">  <a href="#index" role="tab" data-toggle="tab"> order  </a></li>
 			</ul> 
+		</div>	
 		</div>
 	</div>
 </header>  
 
 <div id="main">
 	<div class="tab-content">
-		<div class="tab-pane" id="hakamaeng">
+		<div class="container-fluid tab-pane" id="hakama">	
 			<image src="http://hakama.com.ua/images/hakama1.jpg" width="307" height="405" alt="вид хакама" align="right" hspace="20">
 			<h3>Hakama - the type of traditional Japanese clothing.</h3>
 			<p>Originally it was worn only by men. But today it is also worn by both women and man. </p>
@@ -69,7 +86,7 @@
 			<p>Founder of Aikido Morihei Ueshiba Sensei, was obliged to wear the hakama with the first workout, and even those who first set foot on the tatami.</p>
 			<p>Wear hakama - to understand that this is your way, and you want to follow him.</p>
 		</div>	
-		<div class="tab-pane" id="rozmiryeng">
+		<div class=" container-fluid tab-pane" id="rozmiryeng">
 			<image src="http://hakama.com.ua/images/rozmiry.gif" width="240" height="400" alt="мерки" align="right" hspace="20">
 			<h3>Measurements</h3>
 			<p>In ancient Japan hakama was made of the same size for all, and then customized for each person specifically.</p>
@@ -85,7 +102,7 @@
 			<p>In the present embodiment, sewing the hakama you order, removal of measurements is made directly to a specific athlete. 
 			Most accurately it is taken into account his anthropological features that ensure its comfort during exercise and improve athletic performance.</p>
 		</div>	
-		<div class="tab-pane" id="materialyeng">
+		<div class=" container-fluid tab-pane" id="materialyeng">
 			<image src="http://hakama.com.ua/images/hakama2.gif" width="290" height="380" alt="ткань хакама" align="right" hspace="20">
 			<h3>Materials for tailoring hakama</h3>
 			<p>Fabric, which in ancient Japanese wrapped around the hips and called - hakama.
@@ -103,7 +120,7 @@
 			Durable synthetic thread is in matching color.</p>
 			<p>>As practice shows, hakama, sewn from these tissues, distinguishes strength, durability, and easy care.</p>
 		</div>
-		<div class="tab-pane active" id="indexeng">
+		<div class="container-fluid tab-pane active" id="indexeng">
 			<image src="http://hakama.com.ua/images/hakama8.jpg" width="307" height="405" alt="общий вид хакама" align="right" hspace="20">
 			<h3>Custom-made Hakama</h3>
 			<p>Our company offers customers the opportunity to purchase a custom-made hakama  provided to us for measurements. Hakama is sewn by Japanese patterns. </p>
@@ -115,22 +132,34 @@
 			is specified in each case separately.</p>
 			<p>For example: delivering to Brasil door-to-door is anadditional $35.</p>
 			<p>Wear hakama - to understand that this is your way, and you want to follow him.</p>
-			<br> <br>
+			<br>
+			<button class="btn bnt-warning" title="Посмотреть отзывы" onclick='funotkr()'> Reviews </button> 	
 		</div>	 
 	</div>
 </div>
-<strong>Specify your details and consultant will contact you to checkout.</strong>  
-<br/>
-<br/>
-<form method="post" action="mail.php">
-	<strong>Your name:</strong>                 	     <br />
-	<input type="text" name="name" size="40"/>     		 <br />
-	<strong>Your e-mail:</strong>   	               	 <br />
-	<input name="email" type="text" size="40" />   		 <br />
-	<!--<strong>Вкажіть розміри Н, Н1, W1, W2 і адресу доставки. :</strong>  <br />-->
-	<!--<textarea name="mess" rows="3" cols="25"></textarea> <p>-->
-	<input type="submit" value="I want to order a hakama"/>   </p>
-</form>
+<div class="container">
+	<strong>Specify your details and consultant will contact you to checkout:</strong>  
+	<br/><br/>
+	<form class="form" method="post" action="mail.php">
+		<div class="form-group">
+			<label class="control-label col-md-3">Your name:</label>                    	  
+			<div class="col-md-9"> <input type="text" class="form-control input-sm" placeholder="Name" name="name">       </div>	
+		</div>	
+		<div class="form-group">		
+			<label class="control-label col-md-3">Country of residence:</label>   	                	  
+			<div class="col-md-9"> <input type="text" class="form-control input-sm" placeholder="Country" name="kraina">  </div>   
+		</div>	
+		<div class="form-group">	
+			<label class="control-label col-md-3">Your e-mail:</label>   	                	
+			<div class="col-md-9"> <input type="email" class="form-control input-sm" placeholder="e-mail" name="email" > </div>   
+		<div class="form-group">			
+			<label class="control-label col-md-3">Message text:</label>   	               
+			<div class="col-md-9"> <textarea class="form-control" name="mess" rows="2"  placeholder="Enter text"> </textarea> </div>
+		</div>	
+			<input type="button" class="btn btn-info" type="submit"  value= "Send"  >  
+		</div>
+	</form>
+</div>
 
 <footer>
 <h1>"The true victory - a victory over himself"</h1>

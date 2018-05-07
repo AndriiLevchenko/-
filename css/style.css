@@ -8,74 +8,81 @@
 
 
 body {
-font-size: 16px;
-font-family: Tahoma, Geneva, sans-serif;	
+	font-size: 16px;
+	font-family: Tahoma, Geneva, sans-serif;	
 }
 header{
-margin-bottom: 4px;	
+	margin-bottom: 4px;	
 }
 #header{
     margin-bottom: 10px;
+    background-color: #25B33f;
 	background-image: url('../Images/fujiyama.jpg');
+	background-position: center center;
 	background-size: cover;  
-	background-repeat: repeat-x;
-	background-color: #25B33f;
-	padding: 4px;
+	
+	padding: 2px 2px 0 2px;
 	clear: both;
+}
+header h1{
+ 	font-size: 36px;
+ 	font-weight: 600;
 }
 
 p{
 	margin: 0px;
 }
 	
-header a { /*äëÿ âñåõ ññûëîê õåäåðà*/
-
-color: #020202;
-text-decoration: none;
+header a {
+	color: #020202;
+	text-decoration: none;
 }
-/*a:hover {color:#020202; text-decoration: none;}
+/*header a:hover {color: #020102; text-decoration: none;}
 a:visited {color:#666666; text-decoration: underline;}*/
 
 
 header nav ul{
      margin: 8px auto;
-	list-style-type:none;/*îòìåíèëè ñòèëè äëÿ ññûëîê*/
+	list-style-type:none;
 }
 header nav ul li {
-	display: inline-block; /*âûñòðîèëè â ðÿä 3 íàøèõ ýëåìåíòà*/
+	display: inline-block; 
 	margin-bottom: 4px;
 	margin-right: 8px;
-	  /*íåáîëüøîé îòñòóï ñïðàâà  10 ïèêñåë*/
-	/*border: 1px solid #cccccc;   çàäàåì ðàìêó*/
 }
-header nav ul li button {
-	    margin-bottom: 4px;
-		background: #cccccc; 
-		width: 76px; 
-		height: 40px; 
-		border-radius: 8px; 
+#movy ul li a {
+		background: #a0f990;
+		width: 46px; 
+		height: 28px; 
+		border-radius: 4px; 
 		box-shadow: 0px 1px 5px; 
-		font-size: 20px;
+		font-size: 12px;
 }
-header nav ul li a {/*äëÿ ññûëîê*/
-background-color:#D4FBF6;
-display: block;   /*çàäàåì ðàçìåð ññûëêàì*/
-width: 8em;  /*em - ðàçìåð îäíîé áóêâû*/
-text-align: center;/*âûðàâíèâàíèå òåêñòà ïî öåíòðó*/
-line-height:   1.75em; /*âûñîòà ñòðîêè*/
-solid;
+#movy{
+	float: left;
+	position: relative;
+	top: 12px;
 }
+#taby{
+	float: left;
+}
+
+
 
 #main{
 	border: 3px solid  #00ff00;
-	padding: 25px;  /*â ïåääèíãå íå ðàáîòàåò àâòî*/
+	padding: 15px 25px ;  /*â ïåääèíãå íå ðàáîòàåò àâòî*/
 	margin: 20px auto;
-	width: 1023px;
-	min-height: 500px;
+	width: 75%;
+	min-height: 460px;
 }
 
 #main p{
+	font-size: 1.1em;
 	text-indent: 55px;
+}
+#main h3{
+	font-weight: 560;
 }
 .margin10{
 	margin-right: 28px;
@@ -87,9 +94,9 @@ border: 3px  solid   #CFE0FB;
 
 footer h1 {
 text-align: center;
-border: 44px solid #CFE0FB;   /*çàäàåì ðàìêó*/
-margin: 1px; /*îòñòóï ñ 4-õ ñòîðîí ïî 50- ïèêñ âíåøíèé*/
-padding: 15px;/*îòñòóï ñ 4-õ ñòîðîí ïî 50- ïèêñ âíóòðåííèé*/
+border: 44px solid #CFE0FB;
+margin: 1px;
+padding: 15px;
 }
 
 
